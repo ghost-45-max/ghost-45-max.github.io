@@ -13,7 +13,7 @@ class App{
 		this.scene.background = new THREE.Color(0xaaaaaa);
 		
 
-		this.render = new THREE.WebGLRenderer({antialias:true});
+		this.renderer = new THREE.WebGLRenderer({antialias:true});
 		this.render.setPixelRatio(window.devicePixelRatio);
 		this.render.setSize(window.innerWidth, window.innerHeight);
 		container.appendChild(this.renderer.domElement);
